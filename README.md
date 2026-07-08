@@ -1,83 +1,25 @@
-# Car-prediction-using-ML
-A Machine Learning project that predicts car ex-showroom prices using Random Forest Regression with an interactive Streamlit web application.
 
-**********************************************************************************************************************************
-The Car Price Prediction project is a Machine Learning application that predicts the Ex-Showroom Price of a car based on its specifications. The project includes data preprocessing, feature engineering, model training, evaluation, and a user-friendly Streamlit web application for real-time predictions.
+# Car Price Prediction using Machine Learning
 
-🚀 Features
-Predicts car prices using Machine Learning
-Data preprocessing and cleaning
-Missing value handling
-One-Hot Encoding for categorical features
-Random Forest Regression model
-Interactive Streamlit web application
-User-friendly interface
-Real-time price prediction
-📂 Dataset
+## Objective
+Predict the Ex-Showroom Price of a car from its specifications.
 
-The dataset contains various car specifications such as:
+## Dataset
+cars.csv
 
-Make
-Model
-Fuel Type
-Body Type
-Engine Displacement
-Power
-Seating Capacity
-Ex-Showroom Price (Target Variable)
+## Workflow
+1. Load data
+2. Clean target column
+3. Handle missing values
+4. Encode categorical features
+5. Train Random Forest Regressor
+6. Evaluate using MAE, RMSE and R²
+7. Save trained model
 
-<------------------------------------------------------------------------------------------------------------------------------>
-
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
-Joblib
-Streamlit
-
-<------------------------------------------------------------------------------------------------------------------------------>
-
-📊 Machine Learning Workflow
-Data Collection
-Data Cleaning
-Missing Value Handling
-Feature Selection
-One-Hot Encoding
-Train-Test Split
-Model Training
-Model Evaluation
-Model Saving
-Streamlit Deployment
-
-<------------------------------------------------------------------------------------------------------------------------------>
-
-🤖 Machine Learning Model
-
-Algorithm Used
-
-Random Forest Regressor
-
-Evaluation Metrics
-
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R² Score
-
-<------------------------------------------------------------------------------------------------------------------------------>
-
-📸 Application Preview
-
-The application allows users to enter:
-
-Car Brand
-Fuel Type
-Body Type
-Engine Displacement
-Power
-Seating Capacity
-
-After clicking Predict Price, the model estimates the Ex-Showroom Price instantly.
+## Libraries
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+seaborn
